@@ -21,5 +21,6 @@ echo "Installed flutter to `pwd`/flutter"
 # if you get "Execution failed for task ':app:lintVitalRelease'." error, uncomment next two lines
 # flutter build apk --debug
 # flutter build apk --profile
+ls
 flutter build ios --release --no-codesign --build-number $APPCENTER_BUILD_ID
 
